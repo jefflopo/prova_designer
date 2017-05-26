@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contracheques Mensais</title>
+        <link rel="stylesheet" href="../lib/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="../fonts/font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" href="../css/folha_estilo_contracheque.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+    </head>
+    <body>
+        
+        <header>
+            
+            <div class="pull-right">
+                
+                <ul id="menu" class="nav navbar-nav">
+                    
+                    <li><a href="#">Recente</a></li>
+                    <li role="presentation" class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Histórico<b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                                <li><a href="#">Data Específica</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li><a href="#">últimos 3 meses</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li><a href="#">últimos 6 meses</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li><a href="#">últimos 12 meses</a></li>
+                        </ul>
+                    </li>
+                    
+                </ul>
+                <div class="container">
+                    <ul>
+                        <li role="presentation" class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Usuário<b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                    <li><a href="#">Dados</a></li>
+                                    <li role="separator" class="divider"></li>
+                                    <li><a href="#">Informações do Cargo</a></li>
+                                    <li role="separator" class="divider"></li>
+                                    <li><a href="#">Férias</a></li>
+                                    <li role="separator" class="divider"></li>
+                                    <li><a href="#">Alterar Senha</a></li>
+                                    <li role="separator" class="divider"></li>
+                                    <li><a href="#">Sair</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                
+            </div>
+            
+        </header>
+        
+        <section>
+            
+            <div id="exibicao" class="container">
+                <div class="row text-center">
+                    <h2>Opção Selecionada</h2>
+                    <hr>
+                </div>
+                
+                <div id="informacaoSelecionada">
+                    <div id="contracheque">
+                        
+                    </div>
+                </div>
+                
+            </div>
+            
+        </section>
+        
+        <footer>
+            <div class="row rodape-detalhes">
+                
+                <div class="container">
+                    
+                    <div class="row">
+                        
+                        <div class="col-md-12">
+                            
+                            <div class="col-md-6">
+                                <h4>CONTRACHEQUES</h4>
+                                <hr>
+                                <ul class="list-unstyled">
+                                    <li><a href="#" target="_blank"><i class=" fa fa-angle-right"></i>Recente</a></li>
+                                    <li><a href="#"><i class="fa fa-angle-right"></i>Histórico</a></li>
+                                    <li><a href="#"><i class="fa fa-angle-right"></i>Último Gerado</a></li>
+                                </ul>
+                            </div>
+                            
+                            <div class="col-md-6">
+                                <h4>CONTATOS</h4>
+                                <hr>
+                                
+                                <address>
+                                    <i class="fa fa-map-marker"></i> <span>Informática - Brasília <small>Endereço - Quadra - Bloco - Edifício CEP - Brasília - DF - Brasil</small></span>
+                                </address>
+                                
+                                <p><a href="6100000000"><i class="fa fa-phone"></i>(61)0000-0000</a></p>
+                                
+                                <ul class="list-unstyled list-socials">
+                                    
+                                    <li>
+                                        <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a>
+                                    </li>
+                                    
+                                    <li>
+                                        <a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter"></i></a>
+                                    </li>
+                                    
+                                    <li>
+                                        <a href="https://www.youtube.com/" target="_blank"><i class="fa fa-youtube"></i></a>
+                                    </li>
+                                    <li class="page-up">
+                                        <a id="page-up" href="#"><i class="fa fa-chevron-up"></i></a>
+                                    </li>
+                                    
+                                </ul>
+                                
+                            </div>
+                            
+                        </div>
+                        
+                    </div>
+                    
+                </div>
+                
+            </div>
+            
+            <div class="row rodape-copyright">
+                
+                <div class="container">
+                    
+                    <p class="center-block">Copyright © 2017 Saúde Tecnologias. Todos os direitos reservados.</p>
+                    
+                </div>
+                
+            </div>
+            
+        </footer>
+        
+        <script src="../lib/jquery/jquery.min.js"></script>
+        <script src="../lib/bootstrap/js/bootstrap.min.js"></script>
+        <script src="../lib/js/efeitos.js"></script>
+        
+        
+    </body>
+</html>
